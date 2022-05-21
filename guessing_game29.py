@@ -8,11 +8,11 @@ oout_of_linit = False
 while secrt_num != guess and not(oout_of_linit): 
     guess_count += 1
     if guess_count <= guess_limit:   
-     guess = int(input("請輸入數字: "))
+     guess = int(input("Please enter the number: "))
      if guess > secrt_num:
-         print("小一點")
+         print("smaller")
      elif guess < secrt_num:
-         print("大一點")
+         print("bigger")
     else:
         out_of_linit = True 
 
