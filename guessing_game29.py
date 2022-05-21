@@ -17,6 +17,6 @@ while secrt_num != guess and not(oout_of_linit):
         out_of_linit = True 
 
 if out_of_linit:
-    print("哈哈你超爛，輸了")
+    print("you lose")
 else:                
-    print("可惡你贏了")
+    print("you win")
